@@ -1,3 +1,4 @@
 export const Title = (props) => {
-    return <span>Hello, {props.greeting}</span>;
+    return <span>{props.greeting} {props.name}</span>;
   };
+
